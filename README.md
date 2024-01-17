@@ -59,6 +59,10 @@ var dataModel = new DataModel
 var result = await engine.Run(new RulesContext<DataModel> { State = dataModel });
 ```
 
+## Resources
+
+A hat tip to [Andrew Lock](https://github.com/andrewlock) for his article [Exploring the code behind IHttpClientFactory in depth](https://andrewlock.net/exporing-the-code-behind-ihttpclientfactory/) which provided great insight into how the code is put together in .NET.
+
 ## Disclaimer
 
 This was an experiment into the art of the possible and is purely a proof of concept and is no way ready for production use out of the box. 
