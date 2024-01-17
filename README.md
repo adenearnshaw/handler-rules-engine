@@ -1,4 +1,4 @@
-# handler-rules-engine
+# Handler-style Rules Engine
 
 A sample of a rules engine that follows a similar pattern to the C# HttpMessageHandler. 
 
